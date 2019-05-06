@@ -3,7 +3,7 @@
 body {
     display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    /* flex-direction: column; */
     font-family: 'Schoolbell', cursive;
   }
 
@@ -26,7 +26,7 @@ nav{
 
 .project{
     margin: 10px;
-    width: 30%;  
+    width: 245px;  
   }
   
 
