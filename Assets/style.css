@@ -4,7 +4,7 @@ body {
     display: flex;
     min-height: 100vh;
     /* flex-direction: column; */
-    font-family: 'Schoolbell', cursive;
+    font-family: 'Stylish', sans-serif;
   }
 
 nav{
@@ -30,8 +30,3 @@ nav{
   }
   
 
-html{
-    font-family: 'Schoolbell', cursive;
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Lobster', cursive;
-}
