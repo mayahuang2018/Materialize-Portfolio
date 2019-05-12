@@ -3,7 +3,7 @@
 body {
     display: flex;
     min-height: 100vh;
-    /* flex-direction: column; */
+    flex-direction: column;
     font-family: 'Stylish', sans-serif;
   }
 
@@ -11,9 +11,9 @@ nav{
   padding:5px;
 }
 
-/* .main {
+.main {
     flex: 1 0 auto;
-  } */
+  }
 
 .container{
   padding:10px;
@@ -22,11 +22,12 @@ nav{
 #Portfolio{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .project{
     margin: 10px;
     width: 245px;  
   }
-  
+
 

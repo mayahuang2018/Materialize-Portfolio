@@ -25,24 +25,31 @@
 </head>
 <body>
 <!--Navbar-->
-   
+
   <nav class="nav-extended">
     <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo"> Maya Fangni Huang</a>
-      <a href="contact.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="index.html" class="brand-logo">Maya Huang</a>
+      <a href="contact.html" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">drafts</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="contact.html">Contact me</a></li>
-       
-        
+        <li><a href="contact.html">Contact me</a></li>  
       </ul>
     </div>
+
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a class="active" href="#aboutMe">About Me</a></li>
+        <li class="tab"><a class="active" href="#Portfolio">Portfolio</a></li>
+      </ul>
+    </div>
+
   </nav>
 
+  
   <!--main-->
 <div class= "container z-depth-3"> 
 
     <div class="row">
-        <div class="col s12">
+        <div id ="aboutME" class="col s12">
           <div class="card #e57373 red lighten-2">
             <div class="card-content white-text">
               <span class="card-title">About Me</span>
@@ -67,9 +74,9 @@
 <h3 class="col s12  #e57373 red-text text-lighten-2"> Portfolio</h3>
  
 
-<div id="Portfolio" >
+<div id="Portfolio" class="col s12">
    
-<div id= "row">
+<!-- <div id= "row"> -->
 
   <div class= "project">
       <div class="card">
@@ -117,9 +124,9 @@
         </div>
   </div>
 
-</div>
+<!-- </div> -->
 
-  <div id= "row">
+  <!-- <div id= "row"> -->
 
       <div class= "project">
           <div class="card">
@@ -138,7 +145,7 @@
       </div>
 
   </div>
-  </div>
+  <!-- </div> -->
 </div>
 
 <!--footer-->
